@@ -39,14 +39,12 @@
         }
         /* Added styles for circular profile image */
         #profile-img {
-            position: absolute;
-            top: 20px;
-            left: 20px;
             width: 100px;
             height: 100px;
             border-radius: 50%;
             border: 2px solid #fff;
             overflow: hidden;
+            margin: 20px auto;
         }
 
         #profile-img img {
@@ -81,11 +79,6 @@
     </style>
 </head>
 <body>
-    <!-- Profile Image -->
-    <div id="profile-img">
-        <img src="https://via.placeholder.com/150" alt="Profile Image">
-    </div>
-
     <!-- Navigation Bar -->
     <nav id="nav">
         <ul>
@@ -104,6 +97,12 @@
         <h1>My Portfolio</h1>
     </header>
     <div class="container">
+        <!-- Profile Image -->
+        <section id="photo">
+            <div id="profile-img">
+                <img src="https://via.placeholder.com/150" alt="Profile Image">
+            </div>
+        </section>
         <section id="about">
             <h2>About Me</h2>
             <p>Write a brief introduction about yourself here.</p>
