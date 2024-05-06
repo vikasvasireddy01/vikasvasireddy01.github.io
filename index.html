@@ -21,6 +21,7 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
+            position: relative; /* Added for positioning the image */
         }
         h1 {
             margin-top: 0;
@@ -40,7 +41,7 @@
         #side-nav {
             position: fixed;
             top: 50%;
-            right: 20px;
+            left: 20px;
             transform: translateY(-50%);
             background-color: #333;
             color: #fff;
@@ -55,12 +56,53 @@
         #side-nav a:hover {
             text-decoration: underline;
         }
+        /* Style for circular image */
+        #profile-img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Makes the image circular */
+            border: 2px solid #fff; /* Optional: Add border */
+            overflow: hidden; /* Optional: Clip image overflow */
+        }
+        #profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the entire image is visible */
+        }
+        /* Style for project list */
+        #projects {
+            margin-top: 20px;
+        }
+        #projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #projects li {
+            margin-bottom: 10px;
+        }
+        /* Skills section */
+        #skills {
+            margin-top: 20px;
+        }
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #skills li {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>My Portfolio</h1>
     </header>
+    <div id="profile-img">
+        <img src="your-image-url.jpg" alt="Profile Image">
+    </div>
     <div id="side-nav">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -71,43 +113,27 @@
         <section id="about">
             <h2>About Me</h2>
             <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-            <p>Write a brief introduction about yourself here.</p>
-
-            
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
+            <ul>
+                <li>Project 1: Description of Project 1</li>
+                <li>Project 2: Description of Project 2</li>
+                <li>Project 3: Description of Project 3</li>
+            </ul>
         </section>
         <section id="skills">
             <h2>Skills</h2>
-            <p>List your skills, technologies, and tools you're proficient in.</p>
-             <p>List your skills, technologies, and tools you're proficient in.</p>
-             <p>List your skills, technologies, and tools you're proficient in.</p>
-             <p>List your skills, technologies, and tools you're proficient in.</p>
-             <p>List your skills, technologies, and tools you're proficient in.</p>
+            <p>Java</p>
+            <ul>
+                <li>Java Programming</li>
+                <li>Spring Framework</li>
+                <li>Java EE</li>
+            </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <p>Provide contact information or links to your social media profiles.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
-            v
-            v
         </section>
     </div>
     <footer>
