@@ -37,26 +37,50 @@
             bottom: 0;
             width: 100%;
         }
+        #side-nav {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        #side-nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        #side-nav a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>My Portfolio</h1>
     </header>
+    <div id="side-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="container">
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <p>Write a brief introduction about yourself here.</p>
         </section>
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
             <p>List your projects with brief descriptions and links to their GitHub repositories or live demos.</p>
         </section>
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
             <p>List your skills, technologies, and tools you're proficient in.</p>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
             <p>Provide contact information or links to your social media profiles.</p>
         </section>
