@@ -9,10 +9,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff; /* Changed background color to white */
+            background-color: #f5f5f5; /* Light gray background */
         }
         header {
-            background-color: #333;
+            background-color: #333; /* Dark gray header */
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -21,6 +21,11 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
+            border-left: 2px solid #333; /* Dark gray left border */
+            border-right: 2px solid #333; /* Dark gray right border */
+            background-color: #fff; /* White container background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
         }
         h1 {
             margin-top: 0;
@@ -29,7 +34,7 @@
             line-height: 1.6;
         }
         footer {
-            background-color: #333;
+            background-color: #333; /* Dark gray footer */
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -37,126 +42,77 @@
             bottom: 0;
             width: 100%;
         }
-        /* Added styles for circular profile image */
-        #profile-img {
+        .profile-img {
             width: 100px;
             height: 100px;
-            border-radius: 50%;
-            border: 2px solid #fff;
-            overflow: hidden;
-            margin: 20px auto;
+            border-radius: 50%; /* Circular profile image */
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 2px solid #fff; /* White border */
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
         }
-
-        #profile-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
         }
-
-        /* Added styles for navigation bar */
-        #nav {
-            position: fixed;
-            left: 0;
-            top: 0;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            width: 200px;
-            height: 100%;
-            overflow-y: auto;
+        ul li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc; /* Light gray border between projects */
+            padding-bottom: 20px;
         }
-
-        #nav a {
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        #nav a:hover {
-            background-color: #555;
+        ul li:last-child {
+            border-bottom: none; /* Remove border for last project */
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav id="nav">
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <!-- Additional navigation links -->
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-        </ul>
-    </nav>
-
     <header>
         <h1>My Portfolio</h1>
     </header>
+    <img class="profile-img" src="profile.jpg" alt="Profile Image">
     <div class="container">
-        <!-- Profile Image -->
-        <section id="photo">
-            <div id="profile-img">
-                <img src="https://via.placeholder.com/150" alt="Profile Image">
-            </div>
-        </section>
-        <section id="about">
+        <section>
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
+            <p>I am a passionate Machine Learning Engineer with experience in developing cutting-edge AI solutions. I specialize in natural language processing and computer vision applications.</p>
         </section>
-        <section id="projects">
+        <section>
             <h2>Projects</h2>
             <ul>
                 <li>
-                    <h3>Project 1: Image Recognition with EfficientNet</h3>
-                    <p>Description: Implemented EfficientNet model for image recognition. Metrics: 98% accuracy on validation dataset.</p>
+                    <h3>Text Summarization with Transformers</h3>
+                    <p>Developed a text summarization model using the BERT architecture. Achieved state-of-the-art performance on the CNN/DailyMail dataset with a ROUGE score of 0.4.</p>
+                    <p><strong>Technologies:</strong> Python, TensorFlow, BERT</p>
                 </li>
                 <li>
-                    <h3>Project 2: Sentiment Analysis using BERT</h3>
-                    <p>Description: Conducted sentiment analysis on social media data using BERT model. Metrics: 90% accuracy on test set.</p>
+                    <h3>Image Segmentation for Autonomous Vehicles</h3>
+                    <p>Implemented a deep learning model for semantic segmentation of road scenes. Evaluated performance on the Cityscapes dataset, achieving an mIoU score of 0.75.</p>
+                    <p><strong>Technologies:</strong> Python, PyTorch, ResNet</p>
                 </li>
                 <li>
-                    <h3>Project 3: Object Detection with YOLOv4</h3>
-                    <p>Description: Implemented YOLOv4 model for real-time object detection. Metrics: 25 frames per second on GPU.</p>
+                    <h3>Stock Price Prediction with LSTM</h3>
+                    <p>Created a long short-term memory (LSTM) neural network to predict stock prices. Achieved an accuracy of 80% on a test dataset spanning five years of historical data.</p>
+                    <p><strong>Technologies:</strong> Python, Keras, LSTM</p>
                 </li>
                 <li>
-                    <h3>Project 4: Text Generation using GPT-3</h3>
-                    <p>Description: Developed a text generation system using OpenAI's GPT-3 model. Metrics: 95% coherence score on generated text.</p>
+                    <h3>Chatbot Development with Seq2Seq</h3>
+                    <p>Designed and trained a conversational AI chatbot using sequence-to-sequence learning. Integrated with Slack for real-time interaction and achieved a user satisfaction score of 90%.</p>
+                    <p><strong>Technologies:</strong> Python, TensorFlow, Seq2Seq</p>
                 </li>
             </ul>
         </section>
-        <section id="skills">
+        <section>
             <h2>Skills</h2>
-            <p>List your skills, technologies, and tools you're proficient in.</p>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Machine Learning</li>
-                <li>Deep Learning</li>
-                <li>Natural Language Processing</li>
-                <li>TensorFlow</li>
-                <li>PyTorch</li>
-            </ul>
+            <p><strong>Languages:</strong> Python, Java, JavaScript</p>
+            <p><strong>Frameworks:</strong> TensorFlow, PyTorch, Keras</p>
+            <p><strong>Tools:</strong> Git, Docker, Jupyter Notebook</p>
         </section>
-        <section id="contact">
+        <section>
             <h2>Contact</h2>
-            <p>Provide contact information or links to your social media profiles.</p>
-        </section>
-        <!-- Additional sections -->
-        <section id="education">
-            <h2>Education</h2>
-            <p>List your educational background here.</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>Describe your work experience here.</p>
-        </section>
-        <section id="achievements">
-            <h2>Achievements</h2>
-            <p>List any notable achievements here.</p>
+            <p>Email: example@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/example">Example Profile</a></p>
         </section>
     </div>
     <footer>
