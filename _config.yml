@@ -67,7 +67,7 @@ content:
           - accelerate
           - DeepSpeed
       - layout: top-middle
-        title: Scalable 
+        title: Financial Application to assist fundamental analysis of stocks using LLMs
         link: https://fingpt.info/
         link_text: <mark>Fin GPT 101</mark>
         additional_links:
@@ -80,12 +80,14 @@ content:
         # quote: >
         #   Think of this as your equity research analyst for stocks of the S&P 500.
         description: | # this will include new lines to allow paragraphs
-        The key tools used in this project are:- <br>
-                    - MySQL<br>
-                    - Cassandra<br>
-                    - MongoDB<br>
-                    - Python<br>
-                    - Redis<br>
+          Given the rise of popularity of Chat GPT and LLMs, this application is to harness the power of LLMs in the domain of Finance. Think of this application as your equity research tool 
+                    which you can use to ask questions about any stock. The key tools used in this project are:- <br>
+                    - Langchain<br>
+                    - Streamlit<br>
+                    - PineCone<br>
+                    - OpenAI<br>
+                    - OpenBB<br>
+                    - BeautifulSoup<br>
       - layout: top-middle
         title: Explainability of sequential recommender systems with SHAP values
         # link: github.com/maneelusf/extpersonalization
