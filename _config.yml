@@ -1,0 +1,222 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Maneel Reddy
+title: Data Scientist
+email: maneel1995@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  maneelusf
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: maneel-reddy
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fa-solid fa-circle-envelope
+#   url: maneel1995@gmail.com
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/avatar2.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  I am a data scientist with experience in data science, and machine learning. I have experience in delivering data science projects in marketing and finance domains. 
+  Currently, I am a research assistant at University of San Francisco, enabling computing on topological domains. 
+  On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Instruction tuning of open source  LLM using parameter efficient fine tuning 
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: https://github.com/USFCA-courses/final-project-maneelusf
+          - title:  fingpt.info
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=rKxKNDx9z54
+        description: | # this will include new lines to allow paragraphs
+          Finetuned an open-source LLM(Open Llama 3B) using Low Rank Adapter Weights using the Alpaca dataset and serving the model for inference on Ray Serve <br>
+          - HuggingFace
+          - Ray
+          - PEFT
+          - accelerate
+          - DeepSpeed
+      - layout: top-middle
+        title: Financial Application to assist fundamental analysis of stocks using LLMs
+        link: https://fingpt.info/
+        link_text: <mark>Fin GPT 101</mark>
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: https://github.com/USFCA-courses/final-project-maneelusf
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   Think of this as your equity research analyst for stocks of the S&P 500.
+        description: | # this will include new lines to allow paragraphs
+          Given the rise of popularity of Chat GPT and LLMs, this application is to harness the power of LLMs in the domain of Finance. Think of this application as your equity research tool 
+                    which you can use to ask questions about any stock. The key tools used in this project are:- <br>
+                    - Langchain<br>
+                    - Streamlit<br>
+                    - PineCone<br>
+                    - OpenAI<br>
+                    - OpenBB<br>
+                    - BeautifulSoup<br>
+      - layout: top-middle
+        title: Explainability of sequential recommender systems with SHAP values
+        # link: github.com/maneelusf/extpersonalization
+        # link_text: <mark>SHAPley explanations</mark>
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: github.com/maneelusf/extpersonalization
+        description: | # this will include new lines to allow paragraphs
+          As an academic collaboration with Amazon Web Services Machine Learning Solutions, I enabled SHAPLey explanations for sequential recommender systems. Generating explanations 
+                    for sequential recommender systems helps identify which events are important in determining the model recommendations. The key tools used in this project are:- <br>
+                    - PyTorch<br>
+                    - SHAP<br>
+                    - Pandas<br>
+                    - Numpy<br>
+                    - Mlflow<br>
+      - layout: top-middle
+        title: Reddit and SEC filings sentiment analysis of Rusell 3000 stocks
+        # link: https://github.com/gurug-dev/distributed_data_systems_project
+        # link_text: <mark>Sentiment Analysis</mark>
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: github.com/gurug-dev/distributed_data_systems_project
+        description: | # this will include new lines to allow paragraphs
+          This is a group project where we collected SEC filings(Form 10k Item 7A) on ~1600 stocks as well as reddit posts on 28 subreddits regarding investing.
+           We then perform sentiment analysis by using a pretrained HugginFace model. The key tools used in this project are:-.  <br>
+                    - Praw<br>
+                    - MongoDB<br>
+                    - Databricks<br>
+                    - PySpark<br>
+                    - Huggingface<br>
+                    - Airflow<br>
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: left
+      title: Amazon Web Services
+      sub_title: Machine Learning Research Intern
+      caption: October 2022 - Present
+      quote: >
+        As a machine learning research intern, I am currently training deep learning based sequential recommender systems on open source datasets and using SHAP to drive explainability.(Research paper in draft phase)
+      description: | # this will include new lines to allow paragraphs
+          - Train sequential deep learning recommender models on 3 open-source datasets (ML-1m/Yelp/Amazon Books).
+          - Model explainability of recommender system models using KERNELSHAP and extending it to the sequential domain.
+    - layout: left
+      title: Hypersonix Inc
+      link: hypersonix.ai/profit-os
+      link_text: Hypersonix
+      sub_title: Senior Data Scientist
+      caption: April 2020 - June 2022
+      quote: >
+        As a senior data scientist, I have executed multiple data science projects in the areas of promotion, pricing & supply chain for customers with annual revenues of > $100M. 
+      description: | # this will include new lines to allow paragraphs
+        - Developed and implemented a text similarity model utilizing FuzzyWuzzy and Spacy to accurately map customers across three separate Enterprise Resource Planning (ERP) systems with 70% accuracy replacing the manual approach.
+        - Designed ETL pipelines for monitoring order statuses and tracking truck movements from distribution centers to stores. Developed a uniform schema across 12 tables, which resulted in 86% of orders being mapped to exact delivery times.
+        - Designed a promotion effectiveness model that calculated key drivers of promotion, such as direct lift, halo and cannibalization at the item level. Escalated ~ 5% of promotions on a weekly basis.
+        - Calculated optimal inventory levels and replenishment schedules for all SKUs by time series forecasting (FB-Prophet) and Linear Programming techniques (MIP on CPLEX) for better supply chain management.
+    - layout: left
+      title: Jumbo Electronics LLC
+      sub_title: Financial Planning & Analysis Analyst
+      link: www.jumbogroup.com/
+      link_text: Jumbo Group
+      caption: July 2018 - April 2020
+      quote: >
+        As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
+      description: | # this will include new lines to allow paragraphs
+        - Optimized key monthly task processes by writing a VBA Macro reducing book closure time by 20%.
+        - Designed, reported and maintained financial models on working capital, inventory and debtor aging.
+    - layout: left
+      title: HSBC
+      sub_title: Summer Intern
+      link: www.hsbc.com/
+      link_text: HSBC
+      caption: April 2017 - June 2017
+      quote: >
+        As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
+      description: | # this will include new lines to allow paragraphs
+        - Developed a list of 72 prospective clients by conducting a market study on French and Swedish subsidiaries in India.
+        - Examined the loan book of the client to identify opportunities for consolidation & proposed a solution to consolidate a $20M outstanding loan across 55 entities by 400%.
+    - layout: left
+      title: Credit Suisse
+      sub_title: Intern
+      link: www.credit-suisse.com/us/en.html
+      link_text: Credit Suisse
+      caption: January 2016 - June 2016
+      quote: >
+        As part of the Global Governance and Reporting team, I assisted in the reporting of key risk management metrics for senior management.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: University of San Francisco
+        caption: 2022 - 2023
+        sub_title: Masters in Data Science
+        description: | # this will include new lines to allow paragraphs
+           **Key Courses**:Machine Learning, Deep Learning, Linear Regression, Time Series Analysis, A/B Testing, Relational Databases (SQL), NoSQL, Distributed Computing
+      - layout: top-middle
+        title: Faculty of Management Studies,Delhi University
+        caption: 2016 - 2018
+        sub_title: Masters in Business Administration(Majors:Finance Minors:Marketing/Strategy)
+        description: | # this will include new lines to allow paragraphs
+           **Key Courses**:Marketing Management, Competitive Marketing, Financial Management, Management Accounting, Quantitative Analysis of Financial Decisions, Retailing Management
+      - layout: top-middle
+        title: Birla Institute of Technology & Science,Pilani
+        caption: 2012 - 2016
+        sub_title: Bachelors in Electronics and Communications
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <img src="images/db.png" width="50" height="50"><mark>Data Engineering & Databases</mark>: Proficient in Spark, MySQL,PostgresSQL,MongoDB,Prefect,Apache Airflow & DataBricks.<br>
+      <img src="images/programming.png" width="50" height="50"><mark>Programming Languages</mark>: Strong programming skills in Python(Packages:scikit-learn,mlflow,numpy,pandas,scipy,PuLp) and SQL.<br>
+      <img src="images/machinelearning.png" width="50" height="50"><mark>Machine Learning Techniques</mark>: Knowledge of decision trees, random forest, linear & logistic regression,linear programming and deep learning(RNNs and GRUs).<br>
+      <img src="images/finance.png" width="50" height="50"><mark>Financial Analysis</mark>: Equity Research,Financial Analysis,Financial Planning & Budgeting(Oracle Hyperion),Valuation,Cleared CFA Level 2.<br>
+      <img src="images/communications.png" width="50" height="50"><mark>Communication</mark>: Skilled in presenting to technical and non-technical audience.<br>
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
