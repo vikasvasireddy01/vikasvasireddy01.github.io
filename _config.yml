@@ -67,7 +67,7 @@ content:
           - accelerate
           - DeepSpeed
       - layout: top-middle
-        title: Financial Application to assist fundamental analysis of stocks using LLMs
+        title: Scalable Social Networking: Distributed Database Solutions for High-Performance Applications
         link: https://fingpt.info/
         link_text: <mark>Fin GPT 101</mark>
         additional_links:
