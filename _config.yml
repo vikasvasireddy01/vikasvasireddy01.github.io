@@ -80,8 +80,8 @@ content:
         # quote: >
         #   Think of this as your equity research analyst for stocks of the S&P 500.
         description: | # this will include new lines to allow paragraphs
-          Given the rise of popularity of Chat GPT and LLMs, this application is to harness the power of LLMs in the domain of Finance. Think of this application as your equity research tool 
-                    which you can use to ask questions about any stock. The key tools used in this project are:- <br>
+          Developed 'ConnectX', leveraging MongoDB and Cassandra to build a distributed database solution for dynamic social networking platforms. Prioritizing scalability
+          and fault tolerance, the project aims to optimize data handling and ensure reliable performance.. The key tools used in this project are:- <br>
                     - Langchain<br>
                     - Streamlit<br>
                     - PineCone<br>
