@@ -44,29 +44,50 @@ linkedin_username: vikasvasireddy
 # about_title: About Me
 about_profile_image: images/avatar3.jpeg
 about_content: | # this will include new lines to allow paragraphs
+ I am an experienced software engineer with expertise in software engineering and machine learning. I have a proven track record in designing, developing, and scaling microservices, as well as integrating advanced messaging systems and APIs for enhanced data analytics and system performance. 
+  Currently, I am a graduate assistant at Arizona State University, focusing on computing on AI and ML. Previously, I worked at Cisco, where I managed the daily dispatch of millions of messages and engineered solutions that significantly improved system responsiveness and scalability.
+  On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.
 
-I am an experienced software engineer with expertise in full stack development, microservices, and distributed systems.
-I have a strong background in designing, developing, and scaling complex systems, along with a solid understanding of machine learning principles and applications.Currently, I am a research assistant at Arizona State University.
-Previously, I worked at Cisco, where I managed the daily dispatch of millions of messages and engineered solutions that significantly improved system responsiveness and scalability.
-On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title:  Elastic Cloud Image Processing Solution
+        title: Instruction tuning of open source  LLM using parameter efficient fine tuning 
         additional_links:
           - title:  fingpt.info
             icon: fab fa-github
             url: https://github.com/USFCA-courses/final-project-maneelusf
           
         description: | # this will include new lines to allow paragraphs
-        Elastic Cloud Image Processing Solution | Developed a scalable image processing app on AWS, utilizing EC2 for computation and S3 for storage, achieving rapid processing of 5,000 images in 3.2 minutes. <br>
+          Elastic Cloud Image Processing Solution | Developed a scalable image processing app on AWS, utilizing EC2 for computation and S3 for storage, achieving rapid processing of 5,000 images in 3.2 minutes. <br>
           - AWS
           - AWS S3,EC2,
           - PEFT
           - accelerate
           - DeepSpeed
+      - layout: top-middle
+        title: Financial Application to assist fundamental analysis of stocks using LLMs
+        link: https://fingpt.info/
+        link_text: <mark>Fin GPT 101</mark>
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: https://github.com/USFCA-courses/final-project-maneelusf
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   Think of this as your equity research analyst for stocks of the S&P 500.
+        description: | # this will include new lines to allow paragraphs
+          Given the rise of popularity of Chat GPT and LLMs, this application is to harness the power of LLMs in the domain of Finance. Think of this application as your equity research tool 
+                    which you can use to ask questions about any stock. The key tools used in this project are:- <br>
+                    - Langchain<br>
+                    - Streamlit<br>
+                    - PineCone<br>
+                    - OpenAI<br>
+                    - OpenBB<br>
+                    - BeautifulSoup<br>
       - layout: top-middle
         title: Explainability of sequential recommender systems with SHAP values
         # link: github.com/maneelusf/extpersonalization
@@ -160,20 +181,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Arizona State University
+        title: University of San Francisco
         caption: 2022 - 2023
-        sub_title: Masters in Computer Science
+        sub_title: Masters in Data Science
         description: | # this will include new lines to allow paragraphs
-           **Key Courses**:Statistical Machine Learning, Artificial Intelligence, Distributed data base systems, Time Series Analysis, A/B Testing, Relational Databases (SQL), NoSQL, Distributed Computing
+           **Key Courses**:Machine Learning, Deep Learning, Linear Regression, Time Series Analysis, A/B Testing, Relational Databases (SQL), NoSQL, Distributed Computing
+      - layout: top-middle
+        title: Faculty of Management Studies,Delhi University
+        caption: 2016 - 2018
+        sub_title: Masters in Business Administration(Majors:Finance Minors:Marketing/Strategy)
+        description: | # this will include new lines to allow paragraphs
+           **Key Courses**:Marketing Management, Competitive Marketing, Financial Management, Management Accounting, Quantitative Analysis of Financial Decisions, Retailing Management
       - layout: top-middle
         title: Birla Institute of Technology & Science,Pilani
         caption: 2012 - 2016
-        sub_title: Bachelors in Electrical and Electronics
+        sub_title: Bachelors in Electronics and Communications
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <img src="images/programming.png" width="50" height="50"><mark>Programming Languages</mark>: Strong programming skills in Java ,Python ,JavaScript, Go .<br>
-      <img src="images/db.png" width="50" height="50"><mark>Data Engineering & Databases</mark>: Proficient in Spark, MySQL,PostgresSQL,MongoDB,Prefect,Apache Airflow.<br>
+      <img src="images/db.png" width="50" height="50"><mark>Data Engineering & Databases</mark>: Proficient in Spark, MySQL,PostgresSQL,MongoDB,Prefect,Apache Airflow & DataBricks.<br>
+      <img src="images/programming.png" width="50" height="50"><mark>Programming Languages</mark>: Strong programming skills in Python(Packages:scikit-learn,mlflow,numpy,pandas,scipy,PuLp) and SQL.<br>
       <img src="images/machinelearning.png" width="50" height="50"><mark>Machine Learning Techniques</mark>: Knowledge of decision trees, random forest, linear & logistic regression,linear programming and deep learning(RNNs and GRUs).<br>
       <img src="images/finance.png" width="50" height="50"><mark>Financial Analysis</mark>: Equity Research,Financial Analysis,Financial Planning & Budgeting(Oracle Hyperion),Valuation,Cleared CFA Level 2.<br>
       <img src="images/communications.png" width="50" height="50"><mark>Communication</mark>: Skilled in presenting to technical and non-technical audience.<br>
