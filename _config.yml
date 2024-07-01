@@ -181,21 +181,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: University of San Francisco
-        caption: 2022 - 2023
-        sub_title: Masters in Data Science
+        title: Arizona State University
+        caption: 2022 - 2024
+        sub_title: Masters in Computer Science
         description: | # this will include new lines to allow paragraphs
-           **Key Courses**:Machine Learning, Deep Learning, Linear Regression, Time Series Analysis, A/B Testing, Relational Databases (SQL), NoSQL, Distributed Computing
-      - layout: top-middle
-        title: Faculty of Management Studies,Delhi University
-        caption: 2016 - 2018
-        sub_title: Masters in Business Administration(Majors:Finance Minors:Marketing/Strategy)
-        description: | # this will include new lines to allow paragraphs
-           **Key Courses**:Marketing Management, Competitive Marketing, Financial Management, Management Accounting, Quantitative Analysis of Financial Decisions, Retailing Management
+           **Key Courses**:Statistical Machine Learning, Distributed database systems, Software Security, Artificial Intelligence, Data Intensive Systems for Machine Learning
       - layout: top-middle
         title: Birla Institute of Technology & Science,Pilani
         caption: 2012 - 2016
-        sub_title: Bachelors in Electronics and Communications
+        sub_title: Bachelors in Electrical and Electronics
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
