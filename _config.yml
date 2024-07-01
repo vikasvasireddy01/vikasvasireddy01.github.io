@@ -53,14 +53,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Instruction tuning of open source  LLM using parameter efficient fine tuning 
+        title: Elastic Cloud Image Processing Solution  
         additional_links:
           - title:  fingpt.info
             icon: fab fa-github
             url: https://github.com/USFCA-courses/final-project-maneelusf
           
         description: | # this will include new lines to allow paragraphs
-          Elastic Cloud Image Processing Solution | Developed a scalable image processing app on AWS, utilizing EC2 for computation and S3 for storage, achieving rapid processing of 5,000 images in 3.2 minutes. <br>
+         Developed a scalable image processing app on AWS, utilizing EC2 for computation and S3 for storage, achieving rapid processing of 5,000 images in 3.2 minutes. <br>
           - AWS
           - AWS S3,EC2,
           - PEFT
