@@ -6,9 +6,9 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Maneel Reddy
-title: Data Scientist
-email: maneel1995@gmail.com
+name: Vikas Vasireddy
+title: Software Engineer / ML Engineer
+email: vikasvasireddy264@gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -21,7 +21,7 @@ github_username:  maneelusf
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: jameswgrant
-linkedin_username: maneel-reddy
+linkedin_username: vikasvasireddy
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -32,7 +32,7 @@ linkedin_username: maneel-reddy
 # additional_links:
 # - title: itsgoingto.be
 #   icon: fa-solid fa-circle-envelope
-#   url: maneel1995@gmail.com
+#   url: vikasvasireddy264@gmail.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -44,8 +44,8 @@ linkedin_username: maneel-reddy
 # about_title: About Me
 about_profile_image: images/avatar2.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I am a data scientist with experience in data science, and machine learning. I have experience in delivering data science projects in marketing and finance domains. 
-  Currently, I am a research assistant at University of San Francisco, enabling computing on topological domains. 
+  I am an experienced software engineer with expertise in software engineering, and machine learning. I have experience in delivering data science projects in marketing and finance domains. 
+  Currently, I am a research assistant at Arizona State University, enabling computing on topological domains. 
   On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.
 
 content:
