@@ -199,10 +199,9 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <img src="images/db.png" width="50" height="50"><mark>Data Engineering & Databases</mark>: Proficient in Spark, MySQL,PostgresSQL,MongoDB,Prefect,Apache Airflow & DataBricks.<br>
-      <img src="images/programming.png" width="50" height="50"><mark>Programming Languages</mark>: Strong programming skills in Python(Packages:scikit-learn,mlflow,numpy,pandas,scipy,PuLp) and SQL.<br>
+      <img src="images/programming.png" width="50" height="50"><mark>Programming Languages</mark>: Python ,Java ,JavaScript ,Scala.<br>
+      <img src="images/db.png" width="50" height="50"><mark>Data Engineering & Databases</mark>: Proficient in MySQL,PostgresSQL,MongoDB,Apache Spark,Apache Kafka,Redis,DynamoDB.<br>
       <img src="images/machinelearning.png" width="50" height="50"><mark>Machine Learning Techniques</mark>: Knowledge of decision trees, random forest, linear & logistic regression,linear programming and deep learning(RNNs and GRUs).<br>
-      <img src="images/finance.png" width="50" height="50"><mark>Financial Analysis</mark>: Equity Research,Financial Analysis,Financial Planning & Budgeting(Oracle Hyperion),Valuation,Cleared CFA Level 2.<br>
       <img src="images/communications.png" width="50" height="50"><mark>Communication</mark>: Skilled in presenting to technical and non-technical audience.<br>
 
 # Footer
