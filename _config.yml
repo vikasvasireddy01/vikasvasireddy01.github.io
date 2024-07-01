@@ -15,7 +15,7 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  maneelusf
+github_username:  vikasvasireddy01
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -42,10 +42,10 @@ linkedin_username: vikasvasireddy
 
 # About Section
 # about_title: About Me
-about_profile_image: images/avatar2.jpeg
+about_profile_image: images/avatar3.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  I am an experienced software engineer with expertise in software engineering, and machine learning. I have experience in delivering data science projects in marketing and finance domains. 
-  Currently, I am a research assistant at Arizona State University, enabling computing on topological domains. 
+ I am an experienced software engineer with expertise in software engineering and machine learning. I have a proven track record in designing, developing, and scaling microservices, as well as integrating advanced messaging systems and APIs for enhanced data analytics and system performance. 
+  Currently, I am a graduate assistant at Arizona State University, focusing on computing on AI and ML. Previously, I worked at Cisco, where I managed the daily dispatch of millions of messages and engineered solutions that significantly improved system responsiveness and scalability.
   On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.
 
 content:
@@ -58,13 +58,11 @@ content:
           - title:  fingpt.info
             icon: fab fa-github
             url: https://github.com/USFCA-courses/final-project-maneelusf
-          - title:  fingpt.info
-            icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=rKxKNDx9z54
+          
         description: | # this will include new lines to allow paragraphs
-          Finetuned an open-source LLM(Open Llama 3B) using Low Rank Adapter Weights using the Alpaca dataset and serving the model for inference on Ray Serve <br>
-          - HuggingFace
-          - Ray
+          Elastic Cloud Image Processing Solution | Developed a scalable image processing app on AWS, utilizing EC2 for computation and S3 for storage, achieving rapid processing of 5,000 images in 3.2 minutes. <br>
+          - AWS
+          - AWS S3,EC2,
           - PEFT
           - accelerate
           - DeepSpeed
