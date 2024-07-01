@@ -82,12 +82,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed 'ConnectX', leveraging MongoDB and Cassandra to build a distributed database solution for dynamic social networking platforms. Prioritizing scalability
           and fault tolerance, the project aims to optimize data handling and ensure reliable performance.. The key tools used in this project are:- <br>
-                    - Langchain<br>
-                    - Streamlit<br>
-                    - PineCone<br>
-                    - OpenAI<br>
-                    - OpenBB<br>
-                    - BeautifulSoup<br>
+                    - MongoDB<br>
+                    - MySQL<br>
+                    - DynamoDB<br>
+                    - Redis<br>
+                    - Python<br>
+                    - Docker<br>
       - layout: top-middle
         title: Explainability of sequential recommender systems with SHAP values
         # link: github.com/maneelusf/extpersonalization
