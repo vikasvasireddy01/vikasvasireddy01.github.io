@@ -167,7 +167,7 @@ content:
       link_text: eAutomaton-T Hub
       caption: October 2017 - March 2018
       quote: >
-        As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
+        As part of an early-stage startup focused on Machine Learning and Data Science, I worked as a software engineer, wearing multiple hats even as an intern. I contributed to building the infrastructure and initial product from the ground up using Python and Django, effectively taking the project from 0 to 1.
       description: | # this will include new lines to allow paragraphs
         - Implemented Python-based RESTful APIs using Django and MySQL, incorporating optimized SQL queries, database design, and stored procedures, while leveraging pandas, NumPy, and Matplotlib for efficient data manipulation, analysis,and visualization
     - layout: left
