@@ -42,7 +42,7 @@ linkedin_username: vikasvasireddy
 
 # About Section
 # about_title: About Me
-about_profile_image: images/avatar3.jpeg
+about_profile_image: images/avatar3.jpg
 about_content: | # this will include new lines to allow paragraphs
  I am an experienced software engineer with expertise in software engineering and machine learning. I have a proven track record in designing, developing, and scaling microservices, as well as integrating advanced messaging systems and APIs for enhanced data analytics and system performance. 
   Currently, I am a graduate assistant at Arizona State University, focusing on computing on AI and ML. Previously, I worked at Cisco, where I managed the daily dispatch of millions of messages and engineered solutions that significantly improved system responsiveness and scalability.
