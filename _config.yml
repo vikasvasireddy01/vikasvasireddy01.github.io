@@ -147,11 +147,10 @@ content:
       quote: >
         As a senior data scientist, I have executed multiple data science projects in the areas of promotion, pricing & supply chain for customers with annual revenues of > $100M. 
       description: | # this will include new lines to allow paragraphs
-        - Developed and implemented a text similarity model utilizing FuzzyWuzzy and Spacy to accurately map customers across three separate Enterprise Resource Planning (ERP) systems with 70% accuracy replacing the manual approach.
-        - Designed ETL pipelines for monitoring order statuses and tracking truck movements from distribution centers to stores. Developed a uniform schema across 12 tables, which resulted in 86% of orders being mapped to exact delivery times.
-        - Designed a promotion effectiveness model that calculated key drivers of promotion, such as direct lift, halo and cannibalization at the item level. Escalated ~ 5% of promotions on a weekly basis.
-        - Calculated optimal inventory levels and replenishment schedules for all SKUs by time series forecasting (FB-Prophet) and Linear Programming techniques (MIP on CPLEX) for better supply chain management.
-    - layout: left
+        - A central system to generate PDF files out of custom templates. Used for generating Fee receipts, Report cards, Payslips etc. Implemented AWS Lambda serverless functions to multiply throughput and reduce processing time. Implemented asynchronous processing using Apache Kafka to increase the responsiveness of the system.
+        - Integrated Jaeger for distributed tracing to troubleshoot latency issues. Optimized network connections, achieving a 10x reduction in communication latency. Increased platform capacity to handle concurrent requests by 20x using Apache JMeter, Grafana, InfluxDB, and Glowroot. 
+        - Implemented Quartz scheduler for monthly payroll cycle generation across 10,000 schools. Engineered asynchronous processing of salary component mapping via Kafka and Maxwell for new staff creation, leveraging Spring Batch.
+        - Designed a file upload feature enabling student homework evaluation, utilizing Amazon S3 and BackBlaze cloud storage.
       title: TSSPDCL
       sub_title: Software Engineer
       link: https://tgsouthernpower.org/
@@ -160,8 +159,7 @@ content:
       quote: >
         As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
       description: | # this will include new lines to allow paragraphs
-        - Optimized key monthly task processes by writing a VBA Macro reducing book closure time by 20%.
-        - Designed, reported and maintained financial models on working capital, inventory and debtor aging.
+        - Contributed to Energy Billing System (EBS) web app using Spring MVC, developing backend logic in Java, writing SQL queries with JDBC and Hibernate, and ensuring reliability with JUnit tests.
     - layout: left
       title: eAutomaton
       sub_title: Software Engineer Intern
@@ -171,8 +169,7 @@ content:
       quote: >
         As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
       description: | # this will include new lines to allow paragraphs
-        - Developed a list of 72 prospective clients by conducting a market study on French and Swedish subsidiaries in India.
-        - Examined the loan book of the client to identify opportunities for consolidation & proposed a solution to consolidate a $20M outstanding loan across 55 entities by 400%.
+        - Implemented Python-based RESTful APIs using Django and MySQL, incorporating optimized SQL queries, database design, and stored procedures, while leveraging pandas, NumPy, and Matplotlib for efficient data manipulation, analysis,and visualization
     - layout: left
     
 
