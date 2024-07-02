@@ -129,8 +129,7 @@ content:
       sub_title: Software Engineer II
       caption: April 2021 - July 2022
       quote: >
-       As a software engineer at Cisco, I was involved in designing and developing scalable applications for [WebEx Connect](https://cpaas.webex.com/products/webex-connect)
-, which includes the Cloud Communications Platform, built for enterprise and digital interactions at scale across the entire customer journey. My role involved working across multiple messaging channels
+       As a software engineer at Cisco, I was involved in designing and developing scalable applications for [WebEx Connect](https://cpaas.webex.com/products/webex-connect), which includes the Cloud Communications Platform, built for enterprise and digital interactions at scale across the entire customer journey. My role involved working across multiple messaging channels
       description: | # this will include new lines to allow paragraphs
           - Train sequential deep learning recommender models on 3 open-source datasets (ML-1m/Yelp/Amazon Books).
           - Model explainability of recommender system models using KERNELSHAP and extending it to the sequential domain.
