@@ -136,8 +136,6 @@ content:
           - Developed and engineered seamless migration to enterprise Twitter subscriptions, enhancing application capabilities with advanced APIs for richer insights, real-time streaming, and new features, while integrating new APIs and maintaining existing functionalities.
           - Migrated transaction logs from RDS to S3 and implemented AWS Athena queries, achieving substantial cost savings by storing 1TB/month of logs in S3. Implemented minute-wise partition projections, reducing data scan sizes by over 50GB per Athena query for enhanced performance and cost efficiency.
           - Resolved critical timeout issues with RMI protocols, ensuring zero data loss in microservices architecture. Migrated select services to gRPC for improved performance and scalability
-
-
     - layout: left
       title: NextEducation 
       link: https://www.nexteducation.in/
