@@ -149,8 +149,8 @@ content:
     - layout: left
       title: TSSPDCL
       sub_title: Software Engineer
-      link: www.jumbogroup.com/
-      link_text: Jumbo Group
+      link: https://tgsouthernpower.org/
+      link_text: TSSPDCL
       caption: March 2018 - March 2019
       quote: >
         As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
@@ -160,8 +160,8 @@ content:
     - layout: left
       title: eAutomaton
       sub_title: Software Engineer Intern
-      link: www.hsbc.com/
-      link_text: HSBC
+      link: https://t-hub.co/
+      link_text: eAutomaton-T Hub
       caption: October 2017 - March 2018
       quote: >
         As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
@@ -169,13 +169,7 @@ content:
         - Developed a list of 72 prospective clients by conducting a market study on French and Swedish subsidiaries in India.
         - Examined the loan book of the client to identify opportunities for consolidation & proposed a solution to consolidate a $20M outstanding loan across 55 entities by 400%.
     - layout: left
-      title: Credit Suisse
-      sub_title: Intern
-      link: www.credit-suisse.com/us/en.html
-      link_text: Credit Suisse
-      caption: January 2016 - June 2016
-      quote: >
-        As part of the Global Governance and Reporting team, I assisted in the reporting of key risk management metrics for senior management.
+    
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
