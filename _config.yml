@@ -113,7 +113,7 @@ content:
       sub_title: 
       caption: March 2019 - April 2021
       quote: >
-        As a senior data scientist, I have executed multiple data science projects in the areas of promotion, pricing & supply chain for customers with annual revenues of > $100M. 
+        As a software engineer at NextEducation, I worked on building various microservices for communication, payroll generation, and learning management systems, serving over 10,000 schools. 
       description: | # this will include new lines to allow paragraphs
         - Worked on a central system to generate PDF files out of custom templates. Used for generating Fee receipts, Report cards, Payslips etc. Implemented AWS Lambda serverless functions to multiply throughput and reduce processing time. Implemented asynchronous processing using Apache Kafka to increase the responsiveness of the system.
         - Integrated Jaeger for distributed tracing to troubleshoot latency issues. Optimized network connections, achieving a 10x reduction in communication latency. Increased platform capacity to handle concurrent requests by 20x using Apache JMeter, Grafana, InfluxDB, and Glowroot.
@@ -126,7 +126,7 @@ content:
       link_text: TSSPDCL
       caption: March 2018 - March 2019
       quote: >
-        As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
+         
       description: | # this will include new lines to allow paragraphs
         - Contributed to Energy Billing System (EBS) web app using Spring MVC, developing backend logic in Java, writing SQL queries with JDBC and Hibernate, and ensuring reliability with JUnit tests.
     - layout: left
