@@ -125,20 +125,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-      title: Amazon Web Services
-      sub_title: Machine Learning Research Intern
-      caption: October 2022 - Present
+      title: Cisco
+      sub_title: Software Engineer II
+      caption: April 2021 - July 2022
       quote: >
         As a machine learning research intern, I am currently training deep learning based sequential recommender systems on open source datasets and using SHAP to drive explainability.(Research paper in draft phase)
       description: | # this will include new lines to allow paragraphs
           - Train sequential deep learning recommender models on 3 open-source datasets (ML-1m/Yelp/Amazon Books).
           - Model explainability of recommender system models using KERNELSHAP and extending it to the sequential domain.
     - layout: left
-      title: Hypersonix Inc
+      title: NextEducation 
       link: hypersonix.ai/profit-os
       link_text: Hypersonix
-      sub_title: Senior Data Scientist
-      caption: April 2020 - June 2022
+      sub_title: 
+      caption: March 2019 - April 2021
       quote: >
         As a senior data scientist, I have executed multiple data science projects in the areas of promotion, pricing & supply chain for customers with annual revenues of > $100M. 
       description: | # this will include new lines to allow paragraphs
@@ -147,22 +147,22 @@ content:
         - Designed a promotion effectiveness model that calculated key drivers of promotion, such as direct lift, halo and cannibalization at the item level. Escalated ~ 5% of promotions on a weekly basis.
         - Calculated optimal inventory levels and replenishment schedules for all SKUs by time series forecasting (FB-Prophet) and Linear Programming techniques (MIP on CPLEX) for better supply chain management.
     - layout: left
-      title: Jumbo Electronics LLC
-      sub_title: Financial Planning & Analysis Analyst
+      title: TSSPDCL
+      sub_title: Software Engineer
       link: www.jumbogroup.com/
       link_text: Jumbo Group
-      caption: July 2018 - April 2020
+      caption: March 2018 - March 2019
       quote: >
         As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
       description: | # this will include new lines to allow paragraphs
         - Optimized key monthly task processes by writing a VBA Macro reducing book closure time by 20%.
         - Designed, reported and maintained financial models on working capital, inventory and debtor aging.
     - layout: left
-      title: HSBC
-      sub_title: Summer Intern
+      title: eAutomaton
+      sub_title: Software Engineer Intern
       link: www.hsbc.com/
       link_text: HSBC
-      caption: April 2017 - June 2017
+      caption: October 2017 - March 2018
       quote: >
         As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
       description: | # this will include new lines to allow paragraphs
