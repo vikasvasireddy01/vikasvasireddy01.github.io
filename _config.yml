@@ -88,6 +88,20 @@ content:
                     - Redis<br>
                     - Python<br>
                     - Docker<br>
+      - layout: top-middle
+        title: E-commerce Platform
+        additional_links:
+          - title:  fingpt.info
+            icon: fab fa-github
+            url: https://github.com/vikasvasireddy01/myshop
+          
+        description: | # this will include new lines to allow paragraphs
+         A comprehensive e-commerce platform built using Django, featuring a robust product catalog, efficient shopping cart system with session management, seamless order processing capabilities, and enhanced performance with asynchronous task handling using Celery.<br>
+          - Django
+          - Python
+          - Celery
+          - PostgreSQL
+          - Heroku
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
