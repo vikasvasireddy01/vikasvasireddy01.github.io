@@ -160,8 +160,7 @@ content:
       quote: >
         As part of the FP&A team, I was responsible for budgeting,forecasting and presentation of financial statements to the executive leadership. 
       description: | # this will include new lines to allow paragraphs
-        - Optimized key monthly task processes by writing a VBA Macro reducing book closure time by 20%.
-        - Designed, reported and maintained financial models on working capital, inventory and debtor aging.
+        - Contributed to Energy Billing System (EBS) web app using Spring MVC, developing backend logic in Java, writing SQL queries with JDBC and Hibernate, and ensuring reliability with JUnit tests.
     - layout: left
       title: eAutomaton
       sub_title: Software Engineer Intern
@@ -169,10 +168,10 @@ content:
       link_text: eAutomaton-T Hub
       caption: October 2017 - March 2018
       quote: >
-        As part of the Corporate Banking Team, I conducted a market research study to identify opportunities for business development and worked on the consolidation of loans for a key client.
+         As part of an early-stage startup focused on Machine Learning and Data Science, I worked as a software engineer, wearing multiple hats even as an intern. I contributed to building the infrastructure and initial product from the ground up using Python and Django, effectively taking the project from 0 to 1.
       description: | # this will include new lines to allow paragraphs
-        - Developed a list of 72 prospective clients by conducting a market study on French and Swedish subsidiaries in India.
-        - Examined the loan book of the client to identify opportunities for consolidation & proposed a solution to consolidate a $20M outstanding loan across 55 entities by 400%.
+        - Implemented Python-based RESTful APIs using Django and MySQL, incorporating optimized SQL queries, database design, and stored procedures, while leveraging pandas, NumPy, and Matplotlib for efficient data manipulation, analysis,and visualization.
+       
     - layout: left
     
 
