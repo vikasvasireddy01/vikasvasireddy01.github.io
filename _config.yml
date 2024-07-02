@@ -135,9 +135,10 @@ content:
           - Implemented the integration of Kafka with the existing HornetQ messaging system, achieving a 20% reduction in average message latency and a 15% increase in system throughput, significantly enhancing system responsiveness during peak loads.
           - Developed and engineered seamless migration to enterprise Twitter subscriptions, enhancing application capabilities with advanced APIs for richer insights, real-time streaming, and new features, while integrating new APIs and maintaining existing functionalities.
           - Migrated transaction logs from RDS to S3 and implemented AWS Athena queries, achieving substantial cost savings by storing 1TB/month of logs in S3. Implemented minute-wise partition projections, reducing data scan sizes by over 50GB per Athena query for enhanced performance and cost efficiency.
-          - Resolved critical timeout issues with RMI protocols, ensuring zero data loss in microservices architecture. Migrated select services to gRPC for improved performance and scalability
+          - Resolved critical timeout issues with RMI protocols, ensuring zero data loss in microservices architecture. Migrated select services to gRPC for improved performance and scalability.
     - layout: left
       title: NextEducation 
+      sub_title: Software Engineer
       link: https://www.nexteducation.in/
       link_text: NextEducation
       sub_title: 
@@ -149,6 +150,7 @@ content:
         - Integrated Jaeger for distributed tracing to troubleshoot latency issues. Optimized network connections, achieving a 10x reduction in communication latency. Increased platform capacity to handle concurrent requests by 20x using Apache JMeter, Grafana, InfluxDB, and Glowroot. 
         - Implemented Quartz scheduler for monthly payroll cycle generation across 10,000 schools. Engineered asynchronous processing of salary component mapping via Kafka and Maxwell for new staff creation, leveraging Spring Batch.
         - Designed a file upload feature enabling student homework evaluation, utilizing Amazon S3 and BackBlaze cloud storage.
+     - layout: left
       title: TSSPDCL
       sub_title: Software Engineer
       link: https://tgsouthernpower.org/
