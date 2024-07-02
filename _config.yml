@@ -131,12 +131,17 @@ content:
       quote: >
        As a software engineer at Cisco, I was involved in designing and developing scalable applications for  <a href="https://cpaas.webex.com/products/webex-connect"> WebEx Connect</a>, which includes the Cloud Communications Platform, built for enterprise and digital interactions at scale across the entire customer journey. My role involved working across multiple messaging channels
       description: | # this will include new lines to allow paragraphs
-          - Train sequential deep learning recommender models on 3 open-source datasets (ML-1m/Yelp/Amazon Books).
-          - Model explainability of recommender system models using KERNELSHAP and extending it to the sequential domain.
+          - Designed, developed, and scaled microservices for Twitter, Instagram, and Apple Business Chat channels. Managed the daily dispatch of 10+ million messages and emails using SpringBoot and Kafka.
+          - Implemented the integration of Kafka with the existing HornetQ messaging system, achieving a 20% reduction in average message latency and a 15% increase in system throughput, significantly enhancing system responsiveness during peak loads.
+          - Developed and engineered seamless migration to enterprise Twitter subscriptions, enhancing application capabilities with advanced APIs for richer insights, real-time streaming, and new features, while integrating new APIs and maintaining existing functionalities.
+          - Migrated transaction logs from RDS to S3 and implemented AWS Athena queries, achieving substantial cost savings by storing 1TB/month of logs in S3. Implemented minute-wise partition projections, reducing data scan sizes by over 50GB per Athena query for enhanced performance and cost efficiency.
+          - Resolved critical timeout issues with RMI protocols, ensuring zero data loss in microservices architecture. Migrated select services to gRPC for improved performance and scalability
+
+
     - layout: left
       title: NextEducation 
-      link: hypersonix.ai/profit-os
-      link_text: Hypersonix
+      link: https://www.nexteducation.in/
+      link_text: NextEducation
       sub_title: 
       caption: March 2019 - April 2021
       quote: >
